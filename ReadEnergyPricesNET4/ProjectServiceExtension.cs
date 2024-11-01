@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace ReadEnergyPricesNET4
 {
-    [AddInExtension("ReadEnergyPrices", "Odczyt cen energii z dysku sieciowego TPE")]
+    [AddInExtension("ReadEnergyPrices", "Odczyt danych z dysku sieciowego")]
     public class ProjectServiceExtension : IProjectServiceExtension
     {
         [DllImport("mpr.dll")]
